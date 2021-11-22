@@ -12,74 +12,74 @@ berechnen = () => {
     if(bewegung.value == .95){
         console.log("okay")
     }   if(male.checked === true){
-        grundumsatz.innerHTML = maenner()
-        gesamtumsatz.innerHTML = maenner()*.95
-        knete.innerHTML = ((maenner()*.95)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = maenner().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (maenner()*.95).toFixed(0)+"kcal"
+        knete.innerHTML = ((maenner()*.95)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
-        grundumsatz.innerHTML = frauen()
-        gesamtumsatz.innerHTML = frauen()*.95
-        knete.innerHTML = ((frauen()*.95)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = frauen().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (frauen()*.95).toFixed(0)+"kcal"
+        knete.innerHTML = ((frauen()*.95)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }
     if(bewegung.value == 1.2){
         if(male.checked === true){
-        grundumsatz.innerHTML = maenner()
-        gesamtumsatz.innerHTML = maenner()*1.2
-        knete.innerHTML = ((maenner()*1.2)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = maenner().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (maenner()*1.2).toFixed(0)+"kcal"
+        knete.innerHTML = ((maenner()*1.2)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
-        grundumsatz.innerHTML = frauen()
-        gesamtumsatz.innerHTML = frauen()*1.2
+        grundumsatz.innerHTML = frauen().toFixed(2)+"kcal"
+        gesamtumsatz.innerHTML = (frauen()*1.2).toFixed(2)+"kcal"
         knete.innerHTML = ((frauen()*1.2)/127).toFixed(2) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }}
     if(bewegung.value == 1.5){
         if(male.checked === true){
-        grundumsatz.innerHTML = maenner()
-        gesamtumsatz.innerHTML = maenner()*1.5
-        knete.innerHTML = ((maenner()*1.5)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = maenner().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (maenner()*1.5).toFixed(0)+"kcal"
+        knete.innerHTML = ((maenner()*1.5)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
-        grundumsatz.innerHTML = frauen()
-        gesamtumsatz.innerHTML = frauen()*1.5
-        knete.innerHTML = ((frauen()*1.5)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = frauen().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = frauen()*1.5.toFixed(0)+"kcal"
+        knete.innerHTML = ((frauen()*1.5)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }}
     if(bewegung.value == 1.7){
         if(male.checked === true){
-        grundumsatz.innerHTML = maenner()
-        gesamtumsatz.innerHTML = maenner()*1.7
-        knete.innerHTML = ((maenner()*1.7)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = maenner().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (maenner()*1.7).toFixed(0)+"kcal"
+        knete.innerHTML = ((maenner()*1.7)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
-        grundumsatz.innerHTML = frauen()
-        gesamtumsatz.innerHTML = frauen()*1.7
-        knete.innerHTML = ((frauen()*1.7)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = frauen().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (frauen()*1.7).toFixed(0)+"kcal"
+        knete.innerHTML = ((frauen()*1.7)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }}
     if(bewegung.value == 1.9){
         if(male.checked === true){
-        grundumsatz.innerHTML = maenner()
-        gesamtumsatz.innerHTML = maenner()*1.9
-        knete.innerHTML = ((maenner()*1.9)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = maenner().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (maenner()*1.9).toFixed(0)+"kcal"
+        knete.innerHTML = ((maenner()*1.9)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
-        grundumsatz.innerHTML = frauen()
-        gesamtumsatz.innerHTML = frauen()*1.9
-        knete.innerHTML = ((frauen()*1.9)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = frauen().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = frauen()*1.9.toFixed(0)+"kcal"
+        knete.innerHTML = ((frauen()*1.9)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }}
     if(bewegung.value == 2.2){
         if(male.checked === true){
-        grundumsatz.innerHTML = maenner()
-        gesamtumsatz.innerHTML = maenner()*2.2
-        knete.innerHTML = ((maenner()*2.2)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = maenner().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (maenner()*2.2).toFixed(0)+"kcal"
+        knete.innerHTML = ((maenner()*2.2)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
-        grundumsatz.innerHTML = frauen()
-        gesamtumsatz.innerHTML = frauen()*2.2
-        knete.innerHTML = ((frauen()*2.2)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        grundumsatz.innerHTML = frauen().toFixed(0)+"kcal"
+        gesamtumsatz.innerHTML = (frauen()*2.2).toFixed(0)+"kcal"
+        knete.innerHTML = ((frauen()*2.2)/127).toFixed(0) + " Dosen Knete am Tag essen!"
         ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }
     }
