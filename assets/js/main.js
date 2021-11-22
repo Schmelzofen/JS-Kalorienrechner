@@ -6,13 +6,16 @@ let gesamtumsatz = document.getElementById("gesamtumsatz")
 let male = document.getElementById("male")
 let female = document.getElementById("female")
 let grundumsatz = document.getElementById("grundumsatz")
-
+let knete = document.getElementById("kneteErgebnis")
+let ohJunge = document.getElementById("ohJunge")
 berechnen = () => {
     if(bewegung.value == .95){
         console.log("okay")
     }   if(male.checked === true){
         grundumsatz.innerHTML = maenner()
         gesamtumsatz.innerHTML = maenner()*.95
+        knete.innerHTML = ((maenner()*.95)/127).toFixed(2) + " Dosen Knete am Tag essen!"
+        ohJunge.innerHTML = "Oh, Junge, das ist ziemlich viel Knete!"
     }   else{
         grundumsatz.innerHTML = frauen()
         gesamtumsatz.innerHTML = frauen()*.95
